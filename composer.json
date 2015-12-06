@@ -1,0 +1,32 @@
+{
+  "name": "maxpronko/magento-2-test-module",
+  "description": "Magento 2 Test Module",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Max Pronko",
+      "homepage": "http://www.maxpronko.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.magento.com/"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/magento-composer-installer": "*",
+    "magento/framework": "~1.0.0"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Pronko/Magento2TestModule"
+      ]
+    ]
+  },
+  "minimum-stability": "beta"
+}

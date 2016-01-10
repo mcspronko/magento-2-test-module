@@ -1,4 +1,2 @@
 # modman configuration file
 src             app/code/Pronko/Magento2TestModule
-composer.json   app/code/Pronko/Magento2TestModule/composer.json
-README.md       app/code/Pronko/Magento2TestModule/README.md
